@@ -2,34 +2,44 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <title>Jogo da Velha</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Velha</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5680079950318011"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <div class="canvas-div">
-   <canvas></canvas>
-   <div id="menu">
+  <div class="canvas-div">
+    <canvas></canvas>
+    <div id="menu">
       <p>
-         Escolha o modo de jogo
+        Escolha o modo de jogo
       </p>
       <div class="buttons">
-         <div class="wrapper" onclick = "doisJogadores()">
-            <div class="button">2 jogadores</div>
-         </div>
-         <div class="wrapper" onclick = "jogadorX()">
-            <div class="button">X</div>
-         </div>
-         <div class="wrapper" onclick = "jogadorO()">
-            <div class="button">O</div>
-         </div>
+        <div class="wrapper" onclick="doisJogadores()">
+          <div class="button">2 jogadores</div>
+        </div>
+        <div class="wrapper" onclick="jogadorX()">
+          <div class="button">X</div>
+        </div>
+        <div class="wrapper" onclick="jogadorO()">
+          <div class="button">O</div>
+        </div>
       </div>
-   </div>
-   </div>
-   <script src="script.js"></script>
+    </div>
+  </div>
+  <a data-bs-toggle="collapse" href="#velhaDetails">
+    Sobre
+  </a>
+  <div class="collapse" id="velhaDetails">
+    <div class="card card-body">
+      O milenar jogo da velha já foi muito estudado e todas as combinações possíveis já foram definidas. Este jogo conhece todas elas e não vai deixar você ganhar, no máximo empatar. Descuide-se e o computador vence.
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
